@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<head>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+<title>Stories For Our Future</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <div class="top-section">
+  <img src="/Website/Website/Website photos/Websitedesign.png" alt="Header Image" class="header-image">
+<div class="hamburger-menu">
+  <div class="hamburger-icon" onclick="toggleMenu()">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  
+  <div class="dropdown-menu" id="dropdownMenu">
+    <a Href="Index.html">Home</a>
+    <a Href="Ourstories.html">Our Stories</a>
+    <a href="AboutUs.html">About Us</a>
+    <a href="Feedback.html">Feedback</a>
+    <a href="FeatureYourWriting.html">Feature Your Writing</a> 
+    <a href="HowYouCanHelp.html">How You Can Help</a> 
+  </div>
+</div>
+
+ <script>
+function toggleMenu() {
+  var menu = document.getElementById("dropdownMenu");
+  if (menu.style.display === "block") {
+    menu.style.display = "none";
+  } else {
+    menu.style.display = "block";
+  }
+}
+</script>
+<section class="hero">
+    <div class="floating-words">
+        <span class="float-word word1">Stories</span>
+        <span class="float-word word2">Future</span>
+        <span class="float-word word3">Hope</span>
+        <span class="float-word word4">Dreams</span>
+    </div>
+    <div class="hero-content">
+        <h1 class="hero-title">Stories for Our Future</h1>
+        <p class="hero-subtitle">Discover inspiring tales that shape tomorrow</p>
+        <a href="Ourstories.html" class="cta-button">Explore Stories</a>
+    </div>
+</section>
+<section class="impact-section">
+    <h2>Our Impact</h2>
+    <div class="stats-container">
+        <div class="stat-item">
+            <h3>Many</h3>
+            <p>Stories Shared</p>
+        </div>
+        <div class="stat-item">
+            <h3>Numerous</h3>
+            <p>Readers Inspired</p>
+        </div>
+        <div class="stat-item">
+            <h3>Various</h3>
+            <p>Countries Represented</p>
+        </div>
+    </div>
+</section>
+<div class="spacer"></div>
+</body>

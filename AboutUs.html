@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<head>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+<title>About Us</title>
+
+<link rel = "stylesheet" href = "style.css"> 
+
+</head>
+
+<body>
+  <div class="top-section">
+  <img src="/Website/Website/Website photos/Websitedesign.png" alt="Header Image" class="header-image">
+<div class="hamburger-menu">
+  <div class="hamburger-icon" onclick="toggleMenu()">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  
+  <div class="dropdown-menu" id="dropdownMenu">
+    <a Href="Index.html">Home</a>
+    <a Href="Ourstories.html">Our Stories</a>
+    <a href="AboutUs.html">About Us</a>
+    <a href="Feedback.html">Feedback</a>
+    <a href="FeatureYourWriting.html">Feature Your Writing</a> 
+    <a href="HowYouCanHelp.html">How You Can Help</a> 
+  </div>
+</div>
+
+ <script>
+function toggleMenu() {
+  var menu = document.getElementById("dropdownMenu");
+  if (menu.style.display === "block") {
+    menu.style.display = "none";
+  } else {
+    menu.style.display = "block";
+  }
+}
+</script>
+</div>
+<section class="story-hero">
+    <div class="story-hero-content">
+        <h1>About Us</h1>
+        <div class="story-meta">
+        </div>
+    </div>
+</section>
+
+<section class="story-content">
+    <div class="story-intro">
+            <p class="lead-paragraph">Stories for Our Future began as a digitech project with a goal: to create a news platform that doesn't just report on the world, but helps shape a better one.</p>
+        </div>
+
+        <div class="story-body">
+            <div class="about-section">
+                <h2>Our Story</h2>
+                <p>What started as a digital innovation challenge has grown into a space for meaningful, forward-thinking journalism.</p>
+            </div>
+
+            <div class="mission-section">
+                <h2>Our Mission</h2>
+                <p>To deliver meaningful news that highlights the people, ideas, and movements building a sustainable, just, and hopeful future. We go beyond headlines to uncover solutions, amplify underrepresented voices, and explore the challenges shaping our world.</p>
+            </div>
+
+            <div class="coverage-section">
+                <h2>What We Cover</h2>
+                <p>At Stories for Our Future, our reporting focuses on:</p>
+                
+                <div class="coverage-grid">
+                    <div class="coverage-item">
+                        <h3>Climate & Environment</h3>
+                        <p>The realities, innovations, and resilience shaping our planet's future.</p>
+                    </div>
+                    
+                    <div class="coverage-item">
+                        <h3>Community & Culture</h3>
+                        <p>Voices and perspectives driving social change.</p>
+                    </div>
+                    
+                    <div class="coverage-item">
+                        <h3>Science & Technology</h3>
+                        <p>Ideas and discoveries that could transform how we live.</p>
+                    </div>
+                    
+                    <div class="coverage-item">
+                        <h3>Policy & Impact</h3>
+                        <p>Decisions today that will matter tomorrow.</p>
+                    </div>
+                    
+                    <div class="coverage-item">
+                        <h3>Youth & Future Leaders</h3>
+                        <p>The changemakers redefining what's possible.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="values-section">
+                <h2>Our Values</h2>
+                <div class="values-grid">
+                    <div class="value-item">
+                        <h3>Hope with Honesty</h3>
+                        <p>We face the facts without ignoring the possibilities.</p>
+                    </div>
+                    
+                    <div class="value-item">
+                        <h3>Representation Matters</h3>
+                        <p>We uplift voices and stories that often go unheard.</p>
+                    </div>
+                    
+                    <div class="value-item">
+                        <h3>Accountability & Integrity</h3>
+                        <p>Accuracy, transparency, and fairness guide every story we publish.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="call-to-action-section">
+                <h3>The future isn't something that just happens—it's something we build. In a world crowded with noise and negativity, we're here to offer clarity, hope, and direction.</h3>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
